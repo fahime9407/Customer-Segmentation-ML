@@ -36,3 +36,25 @@ The project uses customer features such as:
 * Spending Score
 
 The goal is to explore different clustering techniques and identify meaningful customer segments.
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/fahime9407/Customer-Segmentation-ML.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Customer-Segmentation-ML
+```
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+After installing the dependencies, you can run the project using Jupyter Notebook.
