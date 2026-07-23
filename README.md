@@ -102,7 +102,7 @@ Customer-Segmentation-ML/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Customer-Segmentation-ML.git
+git clone https://github.com/fahime9407/Customer-Segmentation-ML.git
 ```
 
 ### 2. Navigate to the project directory
