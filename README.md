@@ -1,60 +1,136 @@
-# Customer Clustering
+<div align="center">
 
-This project explores customer segmentation using different clustering algorithms on customer data.
+# Customer Segmentation ML
 
-## Algorithms Used
+### Customer segmentation using unsupervised machine learning algorithms
 
-* **K-Means Clustering**
-* **Hierarchical (Agglomerative) Clustering**
-* **DBSCAN**
+<p>
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn&logoColor=white" alt="Scikit-learn">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white" alt="Jupyter">
+  <img src="https://img.shields.io/badge/Status-Learning%20Project-brightgreen" alt="Status">
+</p>
 
-## Project Steps
+</div>
 
-* Load and explore the customer dataset
-* Preprocess and scale the data
-* Determine the optimal number of clusters using the **Elbow Method** and **Silhouette Score**
-* Apply different clustering algorithms
-* Visualize the resulting clusters
-* Evaluate clustering performance using the **Silhouette Score**
+---
 
-## Libraries
+## 📌 About
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Scikit-learn
-* SciPy
+This project explores **customer segmentation** using different unsupervised machine learning algorithms.
 
-## Dataset Features
+The main goal is to compare clustering techniques and identify meaningful customer segments based on features such as **Age, Gender, Annual Income, and Spending Score**.
 
-The project uses customer features such as:
+---
 
-* Age
-* Gender
-* Annual Income
-* Spending Score
+## 🤖 Algorithms
 
-The goal is to explore different clustering techniques and identify meaningful customer segments.
+The following clustering algorithms are implemented and compared:
 
-## Installation
+- **K-Means Clustering**
+- **Hierarchical (Agglomerative) Clustering**
+- **DBSCAN**
 
-Clone the repository:
+---
 
-```bash
-git clone https://github.com/fahime9407/Customer-Segmentation-ML.git
+## 🔍 Project Workflow
+
+```text
+Data Loading
+     ↓
+Data Exploration
+     ↓
+Data Preprocessing
+     ↓
+Feature Scaling
+     ↓
+Clustering
+     ↓
+Cluster Evaluation
+     ↓
+Visualization
 ```
 
-Navigate to the project directory:
+### Evaluation Methods
+
+- **Elbow Method**
+- **Silhouette Score**
+- **K-Distance Graph** for DBSCAN
+
+---
+
+## 📊 Dataset Features
+
+| Feature                  | Description                           |
+| ------------------------ | ------------------------------------- |
+| `CustomerID`             | Unique customer identifier            |
+| `Gender`                 | Customer gender                       |
+| `Age`                    | Customer age                          |
+| `Annual Income (k$)`     | Annual income in thousands of dollars |
+| `Spending Score (1-100)` | Customer spending score               |
+
+---
+
+## 🛠️ Technologies & Libraries
+
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Scikit-learn**
+- **SciPy**
+- **Jupyter Notebook**
+
+---
+
+## 📂 Project Structure
+
+```text
+Customer-Segmentation-ML/
+│
+├── main.ipynb            # Jupyter Notebook
+├── main.py               # Python script
+├── info_dataset.csv      # Dataset
+├── requirements.txt      # Required Python packages
+└── README.md             # Project documentation
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/Customer-Segmentation-ML.git
+```
+
+### 2. Navigate to the project directory
 
 ```bash
 cd Customer-Segmentation-ML
 ```
 
-Install the required libraries:
+### 3. Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-After installing the dependencies, you can run the project using Jupyter Notebook.
+### 4. Run the project
+
+You can open and run `main.ipynb` using **Jupyter Notebook** or **JupyterLab**.
+
+Alternatively, you can run the Python script:
+
+```bash
+python main.py
+```
+
+---
+
+## 🎯 Project Goal
+
+This project is part of my machine learning learning journey and focuses on understanding and applying different **clustering algorithms** for customer segmentation.
+
+The project provides hands-on experience with **unsupervised learning, feature scaling, cluster evaluation, and data visualization**.
