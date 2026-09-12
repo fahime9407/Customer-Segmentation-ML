@@ -121,12 +121,6 @@ pip install -r requirements.txt
 
 You can open and run `main.ipynb` using **Jupyter Notebook** or **JupyterLab**.
 
-Alternatively, you can run the Python script:
-
-```bash
-python main.py
-```
-
 ---
 
 ## 🎯 Project Goal
